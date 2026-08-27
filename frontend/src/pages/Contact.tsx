@@ -1,11 +1,14 @@
 import { useState, type FormEvent } from "react";
 import SectionHeading from "../components/SectionHeading";
+import usePageTitle from "../hooks/usePageTitle";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 type SubmitStatus = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
+  usePageTitle("Contact Us");
+
   const [form, setForm] = useState({
     name: "",
     email: "",

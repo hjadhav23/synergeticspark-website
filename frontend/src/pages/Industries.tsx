@@ -2,8 +2,11 @@ import SectionHeading from "../components/SectionHeading";
 import ServiceCard from "../components/ServiceCard";
 import CTA from "../components/CTA";
 import { industries } from "../data/industries";
+import usePageTitle from "../hooks/usePageTitle";
 
 export default function Industries() {
+  usePageTitle("Industries We Serve");
+
   return (
     <>
       <section className="section">

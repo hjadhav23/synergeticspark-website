@@ -1,7 +1,10 @@
 import SectionHeading from "../components/SectionHeading";
 import CTA from "../components/CTA";
+import usePageTitle from "../hooks/usePageTitle";
 
 export default function About() {
+  usePageTitle("About Us");
+
   return (
     <>
       <section className="section">

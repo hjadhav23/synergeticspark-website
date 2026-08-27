@@ -2,8 +2,11 @@ import SectionHeading from "../components/SectionHeading";
 import ServiceCard from "../components/ServiceCard";
 import CTA from "../components/CTA";
 import { trainingServices } from "../data/trainingServices";
+import usePageTitle from "../hooks/usePageTitle";
 
 export default function Training() {
+  usePageTitle("Training & Certifications");
+
   return (
     <>
       <section className="section">

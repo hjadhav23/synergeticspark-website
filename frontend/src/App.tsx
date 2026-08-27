@@ -8,11 +8,15 @@ import Talent from "./pages/Talent";
 import Training from "./pages/Training";
 import Industries from "./pages/Industries";
 import Contact from "./pages/Contact";
+import useAnalyticsPageView from "./hooks/useAnalyticsPageView";
 import "./App.css";
 
-export default function App() {
+function AppRoutes() {
+  // Must be rendered inside <BrowserRouter> since it uses useLocation()
+  useAnalyticsPageView();
+
   return (
-    <BrowserRouter>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +28,14 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <AppRoutes />
     </BrowserRouter>
   );
 }

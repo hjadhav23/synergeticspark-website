@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://<your-github-username>.github.io/synergeticspark-website/sitemap.xml
+Sitemap: https://www.syncsparktech.com/sitemap.xml

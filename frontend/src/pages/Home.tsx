@@ -3,8 +3,11 @@ import SectionHeading from "../components/SectionHeading";
 import CTA from "../components/CTA";
 import StatCounter from "../components/StatCounter";
 import DashboardMockup from "../components/DashboardMockup";
+import usePageTitle from "../hooks/usePageTitle";
 
 export default function Home() {
+  usePageTitle("Technology, Talent & Transformation");
+
   return (
     <>
       {/* Hero */}

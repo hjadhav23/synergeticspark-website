@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/</loc>
+    <loc>https://www.syncsparktech.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/about</loc>
+    <loc>https://www.syncsparktech.com/about</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/technology</loc>
+    <loc>https://www.syncsparktech.com/technology</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/talent</loc>
+    <loc>https://www.syncsparktech.com/talent</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/training</loc>
+    <loc>https://www.syncsparktech.com/training</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/industries</loc>
+    <loc>https://www.syncsparktech.com/industries</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://<your-github-username>.github.io/synergeticspark-website/contact</loc>
+    <loc>https://www.syncsparktech.com/contact</loc>
     <priority>0.7</priority>
   </url>
 </urlset>

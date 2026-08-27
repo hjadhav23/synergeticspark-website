@@ -2,8 +2,11 @@ import SectionHeading from "../components/SectionHeading";
 import ServiceCard from "../components/ServiceCard";
 import CTA from "../components/CTA";
 import { talentServices } from "../data/talentServices";
+import usePageTitle from "../hooks/usePageTitle";
 
 export default function Talent() {
+  usePageTitle("Talent Solutions");
+
   return (
     <>
       <section className="section">

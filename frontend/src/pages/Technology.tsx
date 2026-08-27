@@ -2,8 +2,11 @@ import SectionHeading from "../components/SectionHeading";
 import ServiceCard from "../components/ServiceCard";
 import CTA from "../components/CTA";
 import { technologyServices } from "../data/technologyServices";
+import usePageTitle from "../hooks/usePageTitle";
 
 export default function Technology() {
+  usePageTitle("Technology Solutions");
+
   return (
     <>
       <section className="section">
