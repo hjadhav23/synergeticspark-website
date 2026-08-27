@@ -12,7 +12,6 @@ import useAnalyticsPageView from "./hooks/useAnalyticsPageView";
 import "./App.css";
 
 function AppRoutes() {
-  // Must be rendered inside <BrowserRouter> since it uses useLocation()
   useAnalyticsPageView();
 
   return (
